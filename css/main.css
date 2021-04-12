@@ -94,3 +94,22 @@
 .colorbar__category__icon{
     margin: 0px 5px 0px 10px;
 }
+
+.main__background{
+    background-color: #efeeec;
+    height: 390px;
+}
+
+.main__background__categorylist{
+    width: 160px;
+    height: 390px;
+    background-color: white;
+    margin-left: 160px;
+}
+
+.background__categorylist__box{
+    margin-left: 10px;
+    padding-top: 20px;
+    font-size: 13px;
+    color: #474643;
+}
