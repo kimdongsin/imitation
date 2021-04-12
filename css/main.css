@@ -113,3 +113,17 @@
     font-size: 13px;
     color: #474643;
 }
+
+.main__background__img img{
+    position: absolute;
+    top:180px;
+    left: 320px;
+    width: 65%;
+    height: 390px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.main{
+    border-bottom: 1px solid #c8c6c7;
+}
