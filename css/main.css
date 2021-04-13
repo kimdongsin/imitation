@@ -176,3 +176,14 @@
 .body__productbox__right img{
     width: 250px;
 }
+
+.subtext{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 160px;
+}
+
+.subtext__text{
+    color:#03a9ff;
+}
+
