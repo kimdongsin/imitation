@@ -131,6 +131,7 @@
 .body{
     display: flex;
     justify-content: center;
+    margin-left: 6px;
 }
 
 .body__productbox{
@@ -170,7 +171,7 @@
 }
 
 .body__productbox:first-child{
-    margin-right: 20px;
+    margin-right: 26px;
 }
 
 .body__productbox__right img{
@@ -187,3 +188,61 @@
     color:#03a9ff;
 }
 
+.body__container__category{
+    display: flex;
+    align-items: center;
+    padding: 0px 160px;
+    margin-top: 30px;
+    height: 42px;
+}
+
+.container__category__right{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    padding: 10px 10px 10px 795px;
+    border: 1px solid #b1b1b1;
+    border-left: none;
+}
+
+.category__right__img{
+    display: flex;
+    margin-left: 10px;
+}
+
+.category__right__img img{
+    width: 20px;
+}
+
+.container__category__left{
+    font-size: 15px;
+    padding: 13.5px 45px 13.5px 13.5px;
+    background-color: #94af76;
+}
+
+.container__category__left span{
+    color: white;
+    font-size: 14px;
+    width: 100px;
+    display: inline-block;
+}
+
+.category__right__img img:first-child{
+    margin-right: 5px;
+}
+
+.body__container__imgbox{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-left: 5px;
+}
+
+.container__imgbox__img img{
+    width: 230px;
+    height: 230px;
+}
+
+.body__container__imgbox > div:not(:last-child){
+    margin-right: 39px;
+}
