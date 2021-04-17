@@ -251,6 +251,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .container__imgbox__text span:first-child{
@@ -304,4 +305,98 @@
 
 .--text9{
     background-color: #836fa9;
+}
+
+.left__banner{
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+    position: absolute;
+    top: 601px;
+    left: 40px;
+    position: fixed;
+}
+
+.left__banner__box{
+    width: 85px;
+    height: 75px;
+    border: 1px solid #edebe9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left__banner__box:not(:first-child){
+    border-top: none;
+}
+
+.banner__box__text{
+    color: #707070;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.right__banner__title{
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    background-color: #444444;
+    color: white;
+    padding: 11px 10px 11px 10px;
+}
+
+.right__banner__title span:last-child{
+    color: #03a9ff;
+    margin-left: 5px;
+}
+
+.right__banner__imgbox img{
+    width: 85px;
+    height: 85px;
+}
+
+.right__banner__imgbox{
+    border: 1px solid #edebe9;
+    border-top: none;
+    width: 98px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right__banner__imgbox img:not(:last-child){
+    margin-top: 8px;
+}
+
+.right__banner__arrowbox{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.left__banner__arrow img{
+    width: 12px;
+    height: 12px;
+    margin-right: 21px;
+}
+
+.right__banner__arrowbox span{
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+.right__banner__arrow img{
+    width: 12px;
+    height: 12px;
+    margin-left: 21px;
+}
+
+.right__banner{
+    position: absolute;
+    right: 25px;
+    top: 601px;
+    position: fixed;
 }
