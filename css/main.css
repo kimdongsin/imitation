@@ -83,7 +83,7 @@
     background-color: #27303f;
     width: 160px;
     height: 100%;
-    margin-left: 160px;
+    margin-left: 170px;
 }
 
 .colorbar__category__text{
@@ -104,7 +104,7 @@
     width: 160px;
     height: 390px;
     background-color: white;
-    margin-left: 160px;
+    margin-left: 170px;
 }
 
 .background__categorylist__box{
@@ -117,7 +117,7 @@
 .main__background__img img{
     position: absolute;
     top:180px;
-    left: 320px;
+    left: 330px;
     width: 65%;
     height: 390px;
     background-position: center center;
@@ -131,11 +131,11 @@
 .body{
     display: flex;
     justify-content: center;
-    margin-left: 7px;
+    margin-right: 4px;
 }
 
 .body__productbox{
-    width: 505px;
+    width: 535px;
     padding-top: 30px;
     display: flex;
     margin-bottom: 50px;
@@ -146,7 +146,7 @@
     flex-direction: column;
     justify-content: center;
     background-color: #f6f6f6;
-    width: 250px;
+    width: 267.5px;
     border: 1px solid #e8e8e8;
     border-right: none;
 }
@@ -175,13 +175,13 @@
 }
 
 .body__productbox__right img{
-    width: 250px;
+    width: 267.5px;
 }
 
 .subtext{
     font-size: 20px;
     font-weight: bold;
-    margin-left: 160px;
+    margin-left: 170px;
 }
 
 .subtext__text{
@@ -191,7 +191,7 @@
 .body__container__category{
     display: flex;
     align-items: center;
-    padding: 0px 160px;
+    padding: 0px 170px;
     margin-top: 30px;
     height: 42px;
 }
@@ -200,7 +200,7 @@
     display: flex;
     align-items: center;
     font-size: 12px;
-    padding: 10px 10px 10px 795px;
+    padding: 10px 10px 10px 855px;
     border: 1px solid #b1b1b1;
     border-left: none;
 }
@@ -235,12 +235,12 @@
     display: flex;
     justify-content: center;
     margin-top: 35px;
-    margin-left: 7px;
+    margin-right: 5px;
 }
 
 .container__imgbox__img img{
-    width: 250px;
-    height: 220px;
+    width: 265px;
+    height: 265px;
 }
 
 .body__container__imgbox > div:not(:last-child){
@@ -409,7 +409,7 @@
 }
 
 .body__bottom__banner{
-    width: 1035px;
+    width: 1100px;
     margin: 30px auto 0px;
     background-color: #f5f5f5;
     display: flex;
@@ -459,7 +459,7 @@
 }
 
 .bottom__banner__logo{
-    width: 1035px;
+    width: 1100px;
     border-top: 1px solid #c8c6c7;
     margin: 50px auto 0px;
     padding-top: 20px;
@@ -484,7 +484,7 @@
     display: flex;
     font-size: 12px;
     color: #707070;
-    margin-left: 138px;
+    margin-left: 170px;
     height: 13px;
 }
 
@@ -497,11 +497,10 @@
 .footer__top__total{
     font-size: 12px;
     color: #707070;
-    margin-left: 553px;
+    margin-left: 620px;
     width: 200px;
     background-color: #efeeec;
     border-radius: 12px;
-    padding-top 2px;
     padding-bottom: 1px;
     margin-top: -3px;
     height: 17px;
@@ -515,7 +514,7 @@
     font-size: 12px;
     display: flex;
     flex-direction: column;
-    padding: 37px 0px 48px 138px;
+    padding: 37px 0px 48px 160px;
 }
 
 .footer__bottom ul:not(:first-child){
