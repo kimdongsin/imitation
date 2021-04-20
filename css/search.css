@@ -143,13 +143,14 @@
 .middle__search__condition{
     display: flex;
     flex-direction: column;
+    align-content: center;
 }
 
 .search__condition__top{
     display: flex;
     font-size: 12px;
     color: #474643;
-    padding-top: 20px;
+    padding-top: 22px;
 }
 
 .search__condition__top > span{
@@ -170,4 +171,36 @@
 
 .condition__top__radiobox:not(:last-child){
     margin-right:15px;
+}
+
+.search__condition__bottom{
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+.search__condition__bottom span{
+    color: #474643;
+    margin-right: 73px;
+    font-size: 12px;   
+}
+
+.search__condition__bottom input{
+    width: 608px;
+}
+
+.middle__search__img{
+    width: 144px;
+    height: 60px;
+    background-color: #03a9ff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 11px 10px 9px 142px;
+}
+
+.middle__search__img span{
+    font-size: 18px;
+    color: white;
+    display: flex;
+    align-items: center;
 }
