@@ -545,3 +545,62 @@
 .body__subimg img{
     width: 599px;
 }
+
+
+/*  3페이지 마지막 내용 추가  */
+
+.body__precautions{
+    width: 1004px;
+    height: 602px;
+    background-color: #f5f5f5;
+    margin-left: 170px;
+    padding: 40px;
+}
+
+.body__precautions__box1{
+    display: flex;
+}
+
+.precautions__box1__img img{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.precautions__box1__text span:first-child{
+    color: #0161b2;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.box1__text__container{
+    display: flex;
+    margin-top: 15px;
+}
+
+.box1__text__container span{
+    font-size: 20px;
+    color: #bababa;
+    font-weight: bold;
+}
+
+.box1__text__container p{
+    height: 15px;
+    margin-left: 8px;
+    font-size: 12px;
+    color: #27303f;
+}
+
+.text__container__pbox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6px;
+}
+
+.box1__text__center{
+    color: #d12402;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 29px;
+}
