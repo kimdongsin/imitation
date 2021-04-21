@@ -208,7 +208,13 @@
     height: 409px;
 }
 
-.middle__product__img2 img{
+.middle__product__img2 img:first-child{
+    border: 2px solid #059fff;
+    width: 84px;
+    height: 84px;
+}
+
+.middle__product__img2 img:not(:first-child){
     width: 88px;
     height: 88px;
 }
@@ -420,4 +426,122 @@
 
 .middle__field__buttom div:not(:last-child){
     margin-right: 16px;
+}
+
+/* -----바디 시작------ */
+
+.body__background{
+    margin: 50px 0px;
+}
+
+.body__background img{
+    margin-left: 170px;
+    width: 1004px;
+    height: 565px;
+}
+
+.body__menubar__main{
+    width: 244px;
+    height: 40px;
+    border: 1px solid #03a9ff;
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #27303f;
+    font-weight: bold;
+}
+
+.body__menubar__menu{
+    width: 251px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d2d2d2;
+    border-bottom: 1px solid #03a9ff;
+}
+
+.body__menubar{
+    display: flex;
+    margin-left: 170px;
+    font-size: 14px;
+    color: #767676;
+    margin-bottom: 50px;
+}
+
+.body__menubar__main span{
+    padding-top: 12px;
+    padding-bottom: 6px;
+    border-bottom: 4px solid #03a9ff;
+}
+
+.body__protext{
+    margin-left: 170px;
+    margin-bottom: 12px;
+}
+
+.body__protext span:first-child{
+    font-size: 20px;
+}
+
+.body__protext span:last-child{
+    font-size: 12px;
+}
+
+.body__protable{
+    margin-left: 170px;
+}
+
+.body__protable__box{
+    width: 1004px;
+    background-color: #fafafa;
+}
+
+.body__protable__box:first-child{
+    border-top: 1px solid #27303f;
+}
+
+.protable__box__box1{
+    display: flex;
+    height: 45px;
+    align-items: center;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.protable__box__box1 > div{
+    font-size: 12px;
+    color: #27303f;
+}
+
+.protable__box__box1 div:first-child{
+    width: 362px;
+    background-color: #fafafa;
+    margin-left: 10px;
+}
+
+.protable__box__box1 div:last-child{
+    width: 642px;
+    padding-left: 10px;
+    line-height: 45px;
+    height: 100%;
+    background-color: white;
+    border-left: 1px solid #e2e2e2;
+
+}
+
+.--padding{
+    height: 56px;
+}
+
+.--padding div:last-child{
+    line-height: 56px;
+}
+
+.body__subimg{
+    margin: 50px 0px 50px 203px;
+}
+
+.body__subimg img{
+    width: 599px;
 }
