@@ -551,7 +551,6 @@
 
 .body__precautions{
     width: 1004px;
-    height: 602px;
     background-color: #f5f5f5;
     margin-left: 170px;
     padding: 40px;
@@ -567,7 +566,7 @@
     margin-right: 20px;
 }
 
-.precautions__box1__text span:first-child{
+.precautions__box1__text > span:first-child{
     color: #0161b2;
     font-size: 18px;
     font-weight: bold;
@@ -603,4 +602,112 @@
     font-size: 28px;
     font-weight: bold;
     margin-left: 29px;
+}
+
+.box1__text__container:last-child{
+    margin-top: 20px;
+}
+
+.body__precautions__box1:first-child{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #c8c6c7;
+}
+
+.body__precautions__box1:last-child{
+    margin-top: 39px;
+}
+
+.--padding2{
+    padding-bottom: 40px;
+}
+
+/* 3페이지 내용 끝 */
+
+.bottom__banner__logo{
+    width: 1100px;
+    border-top: 1px solid #c8c6c7;
+    margin: 50px auto 0px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.bottom__banner__logo img:not(:last-child){
+    margin-right:68px
+}
+
+.footer__top{
+    height: 25px;
+    border-top: 1px solid #bababa;
+    border-bottom: 1px solid #bababa;
+    padding-top: 13px;
+    display: flex;
+}
+
+.footer__top__list{
+    display: flex;
+    font-size: 12px;
+    color: #707070;
+    margin-left: 170px;
+    height: 13px;
+}
+
+.footer__top__list li:not(:last-child){
+    margin-right: 5px;
+    padding-right: 6px;
+    border-right: 1px solid #707070;
+}
+
+.footer__top__total{
+    font-size: 12px;
+    color: #707070;
+    margin-left: 620px;
+    width: 200px;
+    background-color: #efeeec;
+    border-radius: 12px;
+    padding-bottom: 1px;
+    margin-top: -3px;
+    height: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__bottom{
+    color: #707070;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 37px 0px 48px 160px;
+}
+
+.footer__bottom ul:not(:first-child){
+    margin: 5px 0px;
+}
+
+.footer__bottom ul{
+    display: flex;
+}
+
+.footer__bottom ul li:not(:last-child){
+    border-right: 1px solid #707070;
+    margin-right: 5px;
+    padding-right: 7px;
+}
+
+.footer__bottom__box{
+    width: 90px;
+    height: 14px;
+    background-color: #efeeec;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+
+}
+
+.footer__bottom__masterbox{
+    display: flex;
 }
