@@ -493,7 +493,7 @@
     font-size: 12px;
     display: flex;
     flex-direction: column;
-    padding: 37px 0px 48px 160px;
+    padding: 37px 0px 48px 170px;
 }
 
 .footer__bottom ul:not(:first-child){
