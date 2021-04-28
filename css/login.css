@@ -8,6 +8,10 @@
     border-bottom: 1px solid #e2e2e2;
 }
 
+.header__nav__menu > a{
+    text-decoration: none;
+}
+
 .nav__menu__box:not(:last-child){
     margin-right: 15px;
 }

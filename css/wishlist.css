@@ -246,6 +246,11 @@
     padding-right: 88px;
 }
 
+.body__container__menu ul li a{
+    text-decoration: none;
+    color: #474643;
+}
+
 .--textmargin2{
     padding-right: 102px;
 }
