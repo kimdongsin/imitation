@@ -70,3 +70,110 @@
 }
 
 /* ------------- 헤더 완료 ------------ */
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.main__card{
+    display: flex;
+    flex-direction: row;
+    width: 1004px;
+}
+
+.main__container{
+    padding-top: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 324px;
+    padding-right: 16px;
+}
+
+
+
+.main__container__card1{
+    width: 324px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__card1__div1{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 17px;
+    display: flex;
+}
+
+.container__card1__div1 span{
+    color: #707070;
+    padding-left: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 28px;
+    height: 17px;
+}
+
+.container__card1__div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #c8c6c7;
+    width: 59px;
+    height: 22px;
+    font-size: 10px;
+    color: #707070;
+}
+
+.container__card1__div2 img{
+    margin-right: 3px;
+}
+
+.main__container__form{
+    border-top: 2px solid #03a9ff;
+    width: 324px;
+    height: 10px;
+    font-size: 12px;
+}
+
+.container__form__box1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 10px 13px 10px;
+    border-bottom: 1px solid #c8c6c7;
+}
+
+.container__form__box1 p:last-child{
+    color: #03a9ff;
+}
+
+.container__form__buttom{
+    width: 324px;
+    height: 51px;
+    background-color: #03a9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.form__box1__text{
+    display: flex;
+    font-weight: 500;
+}
+
+.form__box1__text p:first-child{
+    color: #03a9ff;
+}
+
+.form__box1__text p:last-child{
+    color: #d12402;
+    margin-left: 2px;
+}
+
+body{
+    height: 1080px;
+}
