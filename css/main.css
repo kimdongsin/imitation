@@ -96,6 +96,8 @@
     width: 1004px;
 }
 
+/* 헤더 끝 */
+
 .main__container{
     display: flex;
     justify-content: center;
