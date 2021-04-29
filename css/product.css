@@ -99,14 +99,15 @@
 /* 헤더 끝 */
 
 
-/* ------------ 배너 시작  --------- */
+/* 배너 시작 */
+
 .left__banner{
     display: flex;
     flex-direction: column;
     width: 90px;
     position: absolute;
     top: 601px;
-    left: 40px;
+    right: 90%;
     position: fixed;
 }
 
@@ -189,7 +190,7 @@
 
 .right__banner{
     position: absolute;
-    right: 25px;
+    left: 89%;
     top: 601px;
     position: fixed;
 }
