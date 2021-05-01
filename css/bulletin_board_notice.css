@@ -245,6 +245,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
 }
 
 .container__day__box1 input{
@@ -266,4 +267,62 @@ body{
     width: 1004px;
     font-size: 12px;
     color: #767676;
+}
+
+.container__day__box2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 1004px;
+    font-size: 12px;
+}
+
+.container__day__box2 > p:first-child{
+    margin-right: 10px;
+    margin-left: 28px;
+}
+
+.container__day__box2 > p:not(:first-child){
+    margin: 0px 4px;
+    color: #767676;
+}
+
+.day__box2__box1{
+    width: 63px;
+    height: 22px;
+    border: solid 1px #c8c6c7;
+    color: #767676;
+    font-size: 12px;
+}
+
+.day__box2__box2{
+    width: 43px;
+    height: 22px;
+    border: solid 1px #c8c6c7;
+    color: #767676;
+    font-size: 12px;
+    margin: 0px 4px;
+}
+
+.day__box2__box3{
+    width: 43px;
+    height: 22px;
+    border: solid 1px #c8c6c7;
+    color: #767676;
+    font-size: 12px;
+}
+
+.container__day__box3{
+    display: flex;
+    line-height: 12px;
+    font-size: 12px;
+    color: #767676;
+    justify-content: flex-start;
+    width: 1000px;
+    margin-top: 10px;
+}
+
+.container__day__box3 input{
+    margin-left: 60px;
+    margin-right: 3px;
 }
