@@ -1,0 +1,251 @@
+.header__top{
+    display: flex;
+    justify-content: center;
+    height: 33px;
+}
+
+.header__top__box{
+    width: 1004px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top__box__text1{
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.top__box__text1 p{
+    color: #03a9ff;
+    margin-right: 3px;
+}
+
+.top__box__text2{
+    display: flex;
+    font-size: 12px;
+}
+
+.top__box__text2 p:first-child{
+    margin-right: 20px;
+}
+
+.top__box__text2 p a{
+    text-decoration: none;
+    color: #707070;
+}
+
+.header__nav{
+    background-color: #03a9ff;
+    width: 100%;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+}
+
+.header__nav__menu ul{
+    display: flex;
+    align-items: center;
+    width: 1004px;
+    height: 34px;
+    background-color: #27303f;
+    color: white;
+    font-size: 13px;
+}
+
+.header__nav__menu ul li{
+    font-size: 13px;
+    text-align: center;
+    width: 169px;
+}
+
+.header__nav__menu ul li:not(:last-child){
+    border-right: 1px solid #767676;
+}
+
+.header__nav__menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* ------------- 헤더 완료 ------------ */
+
+body{
+    height: 1080px;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+}
+
+.body__container{
+    width: 1004px;
+}
+
+.body__container__title{
+    font-size: 32px;
+    margin-top: 30px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    border-bottom: 4px solid black;
+    margin-bottom: 15px;
+}
+
+.body__container__moongle1{
+    font-size: 12px;
+    color: #767676;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.body__container__moongle1 select{
+    width: 113px;
+    height: 22px;
+    border: solid 1px #c8c6c7;
+    color: #767676;
+    margin: 0px 10px;
+}
+
+.body__container__order{
+    width: 1004px;
+    height: 100px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.body__container__order{
+    font-size: 18px;
+    color: #767676;
+}
+
+.body__container__order p b{
+    color: #03a9ff;
+}
+
+.body__container__moogle2{
+    font-size: 12px;
+    color: #444444;
+    border-bottom: 1px solid #bababa;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.body__container__selbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.body__container__selbox select{
+    width: 113px;
+    height: 22px;
+    border: solid 1px #c8c6c7;
+    font-size: 12px;
+    color: #767676;
+}
+
+.container__selbox__buttombox{
+    display: flex;
+}
+
+.selbox__buttombox__buttom1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #707070;
+    font-size: 10px;
+    width: 72px;
+    height: 22px;
+    border-radius: 2px;
+    border: solid 1px #c8c6c7;
+    margin-right: 4px;
+}
+
+.selbox__buttombox__buttom2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #707070;
+    font-size: 10px;
+    width: 46px;
+    height: 22px;
+    border-radius: 2px;
+    border: solid 1px #c8c6c7;
+}
+
+.body__container__table{
+    border-top: 2px solid #03a9ff;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.container__table__form tr th{
+    background-color: #fafafa;
+    vertical-align: middle;
+}
+
+.container__table__form tr td{
+    vertical-align: middle;
+    color: #767676;
+    text-align: center;
+}
+
+.container__table__form tr th:not(:last-child){
+    border-right: 1px solid #c8c6c7;
+}
+
+.container__table__form tr td:not(:last-child){
+    border-right: 1px solid #c8c6c7;
+}
+
+.container__table__form tr{
+    border-bottom: 1px solid #c8c6c7;
+}
+
+.trth1{
+    width: 33px;
+    height: 79px;
+}
+
+.trth2{
+    width: 40px;
+    height: 79px;
+}
+
+.trth3{
+    width: 60px;
+    height: 79px;
+}
+
+.trth4{
+    width: 84px;
+    height: 79px;
+}
+
+.trthmar1{
+    width: 288px;
+}
+
+.trthmar2{
+    width: 80px;
+}
+
+.trthmar3{
+    width: 110px;
+}
+
+.trthtop{
+    padding: 11px 0px 13px 0px;
+}
+
+.body__container__buttom2{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
